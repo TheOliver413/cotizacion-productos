@@ -1,0 +1,40 @@
+form{
+    padding: 3%;
+    background-color: skyblue;
+    width: 90%;
+}
+
+.container-add label {
+    font-size: large;
+    margin: 3px; 
+}
+
+.input{
+    width: 95%;
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.dt {   
+    width: 80%;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.div-but-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.div-but-form button {
+    line-height: 5em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.4em;
+    color: rgba(#FFF, 0.35);
+    display: block;
+    transition: all ease-out 300ms;
+}

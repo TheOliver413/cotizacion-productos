@@ -1,0 +1,40 @@
+.cotizaciones {
+    position: relative;
+    width: 75%;
+    float: right;
+    height: 100vh;
+  }
+  
+  .container-cot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+  }
+  
+  .header-cot{
+    width: 80%;
+    padding: 20px;
+  }
+  
+  .btn-create{
+    width: 20%;
+    line-height: 5em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.4em;
+    color: rgba(#FFF, 0.35);
+    display: block;
+    transition: all ease-out 300ms;
+  }
+
+  .title {
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 0.1em;
+    color: #FFF;
+    font-weight: bold;
+    margin-top: 20px;
+  }

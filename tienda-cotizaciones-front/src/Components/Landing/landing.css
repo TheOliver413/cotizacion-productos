@@ -1,0 +1,36 @@
+.lpcontainer {
+    display: flex;
+    justify-content: center;
+    background-color: #312450;
+    padding: 3%;
+    width: 30%;
+    border: 5px solid black;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 15%;
+}
+
+.but {
+    width: 100%;
+    line-height: 5em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.4em;
+    color: rgba(#FFF, 0.35);
+    display: block;
+    transition: all ease-out 300ms;
+}
+
+@media screen and (max-width: 768px) {
+    .lpcontainer {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .lpcontainer {
+        width: 100%;
+        padding: 2%;
+        margin-top: 10%;
+    }
+}
